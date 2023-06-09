@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="showQuestions(0)">
+    <div class="container-main">
+        <div class="container-inner">
+            <h6 class="card-title" id="questionElement">Q1. Question comes here</h6>
+                <ul class="list">
+                    <li>
+                        <input type="radio" name="answer" id="ans1" class="answer" >
+                        <label for="ans1" id="option1" class="answerElement" >Answer Option1</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="ans2" class="answer" >
+                        <label for="ans2" id="option2" class="answerElement" >Answer Option2</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="ans3" class="answer" >
+                        <label for="ans3" id="option3" class="answerElement" >Answer Option3</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="ans4" class="answer" >
+                        <label for="ans4" id="option4" class="answerElement" >Answer Option4</label>
+                    </li>
+                </ul>
+                <div class="btn-index1">
+                <button type="button" class="btnn" id="submit" onclick="nextQuestion()" >NEXT</button>
+            </div>
+                <div class="scoreArea" id="showScore">
+                    
+                </div>
+        </div>
+          
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

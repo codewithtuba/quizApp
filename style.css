@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dosis:wght@200&family=Heebo:wght@600&family=Josefin+Sans:wght@100;400&family=Lobster&family=Merriweather&family=Poppins:wght@300;400&family=Roboto+Slab:wght@100;400;500;700&family=Roboto:wght@500&family=Sansita+Swashed:wght@700&family=Style+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+.container-index {
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+
+}
+.input-index {
+    align-items: center;
+    justify-content: center;
+   display: grid;
+    place-items: center;
+   width: 50vw;
+   height: 15vh;
+}
+.input-index input {
+    /* width: 50%; */
+    height: 1.9rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+    background: none;
+    text-align: center;
+    color: #fff;
+    /* padding: 5px 5px; */
+}
+::placeholder{
+    color: wheat;
+}
+.btn-index button {
+    padding: 9px 34px;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.container-inner {
+    /* background-color: rgba(179, 17, 17,0.2); */
+    background-color: rgba(0, 0, 0,0.1);
+    box-shadow: 2px -2px 2px 3px gray;
+    /* display: grid;
+    place-items: center; */
+   width: 60vw;
+   padding: 5px 9px;
+}
+.list li {
+    list-style: none;
+    color: #fff;
+}
+
+.list li label {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+.btn-index1 {
+    display: grid;
+    place-items: end;
+}
+.btnn {
+    /* display: grid; */
+    /* place-items: center; */
+    padding: 9px 34px;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    background-color: rgb(182, 43, 43);
+    color: #fff;
+    cursor: pointer;
+}
+.btnn:hover{
+ background-color: rgb(153, 10, 10);
+}
+ #showScore {
+   /* display: grid;
+   place-items: center; */
+    background-color: #c1c3c4;
+    margin-top: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    margin-bottom: 2rem;
+    padding: 2rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0,0.4);
+}
+#showScore h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+#showScore .btnn {
+  margin-top: 2rem;
+  background-color: #55efc4;
+  color: #2d3436;
+  border-radius: 0;
+}
+ #showScore .btnn:hover {
+    background-color: #00b894;
+    color: #fff;
+ }
+ .btn-div, .btn-h3 {
+     display: flex;
+     justify-content: center;
+ }
+ 
+.scoreArea {
+       display: none;
+}
+
